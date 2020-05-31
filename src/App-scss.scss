@@ -1,0 +1,14 @@
+.app {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  color: rebeccapurple;
+  border: 1px solid rebeccapurple;
+  border-radius: 8px;
+  
+  &-logo {
+    width: 49px;
+    height: 49px;
+    transform: rotate(30deg);
+  }
+}
