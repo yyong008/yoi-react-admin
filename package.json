@@ -68,15 +68,9 @@
     }
   },
   "lint-staged": {
-    "linters": {
       "**/*.js": [
-        "eslint --fix",
-        "git add"
+        "yarn eslint:fix",
+        "yarn stylelint:fix"
       ]
-    },
-    "ignore": [
-      "**/{dist,build}/**/*.js",
-      "**/*.min.js"
-    ]
   }
 }
